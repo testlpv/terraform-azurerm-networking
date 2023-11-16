@@ -3,8 +3,7 @@ resource "azurerm_resource_group" "module" {
   location = var.location
   tags = {
     environment = "dev"
-    #version     = "v1.0.0"
-    owner = "test"
+    version     = "v1.0.0"
   }
 }
 
